@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Pokedex } from "./components"
 
 const data = {
   pokemon: [
@@ -45,7 +46,7 @@ function App() {
 
   return (
     <div>
-
+      <Pokedex pokemons={data.pokemon}/>
     </div>
   );
 }

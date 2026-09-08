@@ -1,0 +1,24 @@
+.pokecard-container {
+	background-color: lightgrey;
+	border-radius: 12px;
+	width: 200px;
+	height: 260px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 25px 15px;
+	box-sizing: border-box;
+}
+
+.pokecard-name {
+	color: blue;
+	font-size: 1.5rem;
+	margin: 0;
+}
+
+.pokecard-type {
+	font-weight: bold;
+	font-size: 1.1rem;
+	margin:0;
+}
